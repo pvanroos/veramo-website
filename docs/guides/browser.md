@@ -13,12 +13,12 @@ npx create-react-app init veramo-browser --template typescript
 ```
 
 Install veramo core and resolver plugin
-
+- Add instructions for installing UglifyJS
 ```bash
 yarn add @veramo/core @veramo/plugin-resolver
 ```
 
-Create a setup file in `scr/veramo/setup.ts` and add the following code.
+Create a setup file in `src/veramo/setup.ts` and add the following code.
 
 ```ts
 import { createAgent, IResolver } from '@veramo/core'
